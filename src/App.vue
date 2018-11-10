@@ -13,6 +13,7 @@ export default {
 <style>
 body {
   margin: 0;
+  font-family: 'Arimo', sans-serif;
 }
 
 </style>

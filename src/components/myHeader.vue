@@ -1,5 +1,5 @@
 <template>
-  <div class='myHeader'>
+  <div class='my-header-container'>
     <title>
       Весь мир TRAVEL
     </title>
@@ -14,16 +14,13 @@
 
 <style scoped>
   title {
-    font-family: 'Comic Sans MS';
-    font-size: 16px;
+    font-size: 32px;
     margin: 20px 30px;
     display: block;
   }
-  .myHeader {
-    position: absolute;
-    left: 200px;
-    right: 0;
-    top: 0;
+  .my-header-container {
+    margin-left: 200px;
+    overflow: hidden;
     max-height: 200px;
     min-height: 20px;
     background: #64A8D1;
