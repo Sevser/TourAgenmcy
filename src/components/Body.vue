@@ -41,11 +41,19 @@
         pageData: [
           {
             image: '/static/img/Kaputas-Beach.jpg',
-            title: 'Отдых в Турции',
+            title: 'Отдых на Море',
           },
           {
             image: '/static/img/winter.jpg',
-            title: 'Зимний отдых',
+            title: 'Активный отдых',
+          },
+          {
+            image: 'http://driving24.ru/wp-content/uploads/2014/10/4336.jpg',
+            title: 'Путешествия по Европе',
+          },
+          {
+            image: 'http://konkurs.trip2rus.ru/sites/default/files/field/images/foto/p8022054.jpg',
+            title: 'Отдых в Башкирии',
           },
           {
             image: '/static/img/AboutUs.jpg',
@@ -53,7 +61,7 @@
           },
           {
             image: '/static/img/socialNetwork.jpg',
-            title: 'Социальные сети',
+            title: 'Наши Социальные сети',
           },
         ],
         canScroll: true,
