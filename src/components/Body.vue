@@ -40,26 +40,32 @@
         index: 0,
         pageData: [
           {
+            name: 'seaHoliday',
             image: '/static/img/Kaputas-Beach.jpg',
             title: 'Отдых на Море',
           },
           {
+            name: 'activeHoliday',
             image: '/static/img/winter.jpg',
             title: 'Активный отдых',
           },
           {
+            name: 'europe',
             image: 'http://driving24.ru/wp-content/uploads/2014/10/4336.jpg',
             title: 'Путешествия по Европе',
           },
           {
+            name: 'bashkiriya',
             image: 'http://konkurs.trip2rus.ru/sites/default/files/field/images/foto/p8022054.jpg',
             title: 'Отдых в Башкирии',
           },
           {
+            name: 'contacts',
             image: '/static/img/AboutUs.jpg',
             title: 'Наши контакты',
           },
           {
+            name: 'socialNetwork',
             image: '/static/img/socialNetwork.jpg',
             title: 'Наши Социальные сети',
           },

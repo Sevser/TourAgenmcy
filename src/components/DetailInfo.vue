@@ -3,15 +3,21 @@
     <div class="title">
       {{data[current].title}}
     </div>
-
+    <mapBody v-if="data[current].name === 'contacts'">
+    </mapBody>
   </div>
 </template>
 
 <script>
+  import mapBody from './mapBody';
+
   export default {
     name: 'DetailInfo',
+    components: {
+      mapBody,
+    },
     props: {
-      current: String,
+      current: Number,
       data: Array,
     },
   };
@@ -25,6 +31,7 @@
     opacity: 0.97;
     margin: auto;
     padding: 20px;
+    position: relative;
   }
   .title {
     font-size: 40px;
